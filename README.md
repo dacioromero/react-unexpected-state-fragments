@@ -1,5 +1,9 @@
 # React Unexpected State with Fragments
 
+## Update
+
+Turns out this was an intentional decision by the React team. See [Dan Abromov's response](https://github.com/facebook/react/issues/17308#issuecomment-551926185) to the issue I opened about this.
+
 ## The Problem(?)
 
 React ignores Fragments when determining if a component is the same instance.
